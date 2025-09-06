@@ -1,0 +1,1032 @@
+{
+    "r1-qwen-1.5B": {
+      "hf_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "modality": "text",
+      "latency_ms": 25,
+      "n_params": 1.5,
+      "cost_usd_per_1k_tokens": 0.00018
+    },
+    "r1-qwen-7B": {
+      "hf_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "modality": "text",
+      "latency_ms": 117,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "r1-qwen-14B": {
+      "hf_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+      "modality": "text",
+      "latency_ms": 233,
+      "n_params": 14,
+      "cost_usd_per_1k_tokens": 0.00168
+    },
+    "r1-qwen-32B": {
+      "hf_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "modality": "text",
+      "latency_ms": 533,
+      "n_params": 32,
+      "cost_usd_per_1k_tokens": 0.00384
+    }
+    ,
+    "meta-llama__Llama-2-7b-chat-hf": {
+      "hf_id": "meta-llama/Llama-2-7b-hf",
+      "modality": "text",
+      "latency_ms": 140,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "meta-llama__Llama-2-13b-chat-hf": {
+      "hf_id": "meta-llama/Llama-2-13b-hf",
+      "modality": "text",
+      "latency_ms": 260,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "mistralai__Mixtral-8x7B-Instruct-v0.1": {
+      "hf_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "modality": "text",
+      "latency_ms": 310,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "google__gemma-2b-it": {
+      "hf_id": "google/gemma-2b-it",
+      "modality": "text",
+      "latency_ms": 60,
+      "n_params": 2,
+      "cost_usd_per_1k_tokens": 0.00024
+    },
+    "WizardLMTeam__WizardCoder-Python-34B-V1.0": {
+      "hf_id": "WizardLMTeam/WizardCoder-Python-34B-V1.0",
+      "modality": "text",
+      "latency_ms": 500,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00420
+    },
+    "mistralai__Mistral-7B-Instruct-v0.1": {
+      "hf_id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "modality": "text",
+      "latency_ms": 200,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "Qwen__Qwen-14B-Chat": {
+      "hf_id": "Qwen/Qwen-14B-Chat",
+      "modality": "text",
+      "latency_ms": 400,
+      "n_params": 14,
+      "cost_usd_per_1k_tokens": 0.00168
+    },
+    "meta-llama__LlamaGuard-7b": {
+      "hf_id": "meta-llama/LlamaGuard-7b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "01-ai__Yi-34B-Chat": {
+      "hf_id": "01-ai/Yi-34B-Chat",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "WizardLM__WizardLM-70B-V1.0": {
+      "hf_id": "WizardLM/WizardLM-70B-V1.0",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 70,
+      "cost_usd_per_1k_tokens": 0.00840
+    },
+    "lmsys__vicuna-13b-v1.5": {
+      "hf_id": "lmsys/vicuna-13b-v1.5",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "openchat__openchat-3.5-0106": {
+      "hf_id": "openchat/openchat-3.5-0106",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 3.5,
+      "cost_usd_per_1k_tokens": 0.00042
+    },
+    "berkeley-nest__Starling-LM-7B-alpha": {
+      "hf_id": "berkeley-nest/Starling-LM-7B-alpha",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "EleutherAI__llemma_7b": {
+      "hf_id": "EleutherAI/llemma_7b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "EleutherAI__llemma_34b": {
+      "hf_id": "EleutherAI/llemma_34b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "openchat__openchat_3.5":
+    {
+      "hf_id": "openchat/openchat_3.5",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 3.5,
+      "cost_usd_per_1k_tokens": 0.00042
+    },
+    "TheBloke__tulu-30B-fp16": {
+      "hf_id": "TheBloke/tulu-30B-fp16",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 30,
+      "cost_usd_per_1k_tokens": 0.00360
+    },
+    "tiiuae__falcon-40b-instruct": {
+      "hf_id": "tiiuae/falcon-40b-instruct",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 40,
+      "cost_usd_per_1k_tokens": 0.00480
+    },
+    "codellama__CodeLlama-34b-Instruct-hf": {
+      "hf_id": "codellama/CodeLlama-34b-Instruct-hf",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "lmsys__vicuna-7b-v1.5": {
+      "hf_id": "lmsys/vicuna-7b-v1.5",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "project-baize__baize-v2-13b": {
+      "hf_id": "project-baize/baize-v2-13b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "mosaicml__mpt-30b-instruct": {
+      "hf_id": "mosaicml/mpt-30b-instruct",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 30,
+      "cost_usd_per_1k_tokens": 0.00360
+    },
+    "TheBloke__koala-13B-HF": {
+      "hf_id": "TheBloke/koala-13B-HF",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "h2oai__h2ogpt-gm-oasst1-en-2048-open-llama-13b": {
+      "hf_id": "h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-13b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "databricks__dolly-v2-12b": {
+      "hf_id": "databricks/dolly-v2-12b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 12,
+      "cost_usd_per_1k_tokens": 0.00144
+    },
+    "OpenAssistant__oasst-sft-4-pythia-12b-epoch-3.5": {
+      "hf_id": "OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 12,
+      "cost_usd_per_1k_tokens": 0.00144
+    },
+    "NousResearch__Nous-Hermes-2-Yi-34B": {
+      "hf_id": "NousResearch/Nous-Hermes-2-Yi-34B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "SUSTech__SUS-Chat-34B": {
+      "hf_id": "SUSTech/SUS-Chat-34B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "Qwen__Qwen-72B": {
+      "hf_id": "Qwen/Qwen-72B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 72,
+      "cost_usd_per_1k_tokens": 0.00864
+    },
+    "ibivibiv__alpaca-dragon-72b-v1": {
+      "hf_id": "ibivibiv/alpaca-dragon-72b-v1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 72,
+      "cost_usd_per_1k_tokens": 0.00864
+    },
+    "ConvexAI__Luminex-34B-v0.2": {
+      "hf_id": "ConvexAI/Luminex-34B-v0.2",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "CorticalStack__pastiche-crown-clown-7b-dare-dpo": {
+      "hf_id": "CorticalStack/pastiche-crown-clown-7b-dare-dpo",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "bardsai__jaskier-7b-dpo-v5.6": {
+      "hf_id": "bardsai/jaskier-7b-dpo-v5.6",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "dfurman__HermesBagel-34B-v0.1": {
+      "hf_id": "dfurman/HermesBagel-34B-v0.1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "sail__Sailor-7B": {
+      "hf_id": "sail/Sailor-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "Q-bert__Optimus-7B": {
+      "hf_id": "Q-bert/Optimus-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "zhengr__MixTAO-7Bx2-MoE-v8.1": {
+      "hf_id": "zhengr/MixTAO-7Bx2-MoE-v8.1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "EleutherAI__pythia-12b": {
+      "hf_id": "EleutherAI/pythia-12b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 12,
+      "cost_usd_per_1k_tokens": 0.00144
+    },
+    "rishiraj__CatPPT-base": {
+      "hf_id": "rishiraj/CatPPT-base",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "microsoft__phi-2": {
+      "hf_id": "microsoft/phi-2",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 2,
+      "cost_usd_per_1k_tokens": 0.00024
+    },
+    "01-ai__Yi-6B-200K": {
+      "hf_id": "01-ai/Yi-6B-200K",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 6,
+      "cost_usd_per_1k_tokens": 0.00072
+    },
+    "TigerResearch__tigerbot-13b-base": {
+      "hf_id": "TigerResearch/tigerbot-13b-base",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "microsoft__phi-1.5": {
+      "hf_id": "microsoft/phi-1.5",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 1.5,
+      "cost_usd_per_1k_tokens": 0.00018
+    },
+    "bigscience__bloom-7b1": {
+      "hf_id": "bigscience/bloom-7b1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "CultriX__NeuralTrix-bf16": {
+      "hf_id": "CultriX/NeuralTrix-bf16",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "yam-peleg__Experiment26-7B": {
+      "hf_id": "yam-peleg/Experiment26-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "meta-math__MetaMath-Mistral-7B": {
+      "hf_id": "meta-math/MetaMath-Mistral-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "FelixChao__llama2-13b-math1.2": {
+      "hf_id": "FelixChao/llama2-13b-math1.2",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "MaziyarPanahi__WizardLM-Math-70B-v0.1": {
+      "hf_id": "MaziyarPanahi/WizardLM-Math-70B-v0.1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 70,
+      "cost_usd_per_1k_tokens": 0.00840
+    },
+    "meta-math__MetaMath-Llemma-7B": {
+      "hf_id": "meta-math/MetaMath-Llemma-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "EleutherAI__llemma-7b": {
+      "hf_id": "EleutherAI/llemma-7b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "Harshvir__Llama-2-7B-physics": {
+      "hf_id": "Harshvir/Llama-2-7B-physics",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "BioMistral__BioMistral-7B": {
+      "hf_id": "BioMistral/BioMistral-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "PharMolix__BioMedGPT-LM-7B": {
+      "hf_id": "PharMolix/BioMedGPT-LM-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "codellama__CodeLlama-7b-hf": {
+      "hf_id": "codellama/CodeLlama-7b-hf",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "deepseek-ai__deepseek-coder-1.3b-base": {
+      "hf_id": "deepseek-ai/deepseek-coder-1.3b-base",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 1.3,
+      "cost_usd_per_1k_tokens": 0.00016
+    },
+    "OpenBuddy__openbuddy-codellama2-34b-v11.1-bf16": {
+      "hf_id": "OpenBuddy/openbuddy-codellama2-34b-v11.1-bf16",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "AdaptLLM__medicine-chat": {
+      "hf_id": "AdaptLLM/medicine-chat",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "AdaptLLM__medicine-LLM-13B": {
+      "hf_id": "AdaptLLM/medicine-LLM-13B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "SciPhi__SciPhi-Self-RAG-Mistral-7B-32k": {
+      "hf_id": "SciPhi/SciPhi-Self-RAG-Mistral-7B-32k",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "Neko-Institute-of-Science__pygmalion-7b": {
+      "hf_id": "Neko-Institute-of-Science/pygmalion-7b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "shleeeee__mistral-ko-tech-science-v1": {
+      "hf_id": "shleeeee/mistral-ko-tech-science-v1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "WizardLM__WizardCoder-Python-34B-V1.0": {
+      "hf_id": "WizardLM/WizardCoder-Python-34B-V1.0",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "meta-llama__Meta-Llama-3-8B": {
+      "hf_id": "meta-llama/Meta-Llama-3-8B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 8,
+      "cost_usd_per_1k_tokens": 0.00096
+    },
+    "meta-llama__Meta-Llama-3-70B": {
+      "hf_id": "meta-llama/Meta-Llama-3-70B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 70,
+      "cost_usd_per_1k_tokens": 0.00840
+    },
+    "meta-llama__Meta-Llama-Guard-2-8B": {
+      "hf_id": "meta-llama/Meta-Llama-Guard-2-8B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 8,
+      "cost_usd_per_1k_tokens": 0.00096
+    },
+    "Qwen__Qwen1.5-4B-Chat": {
+      "hf_id": "Qwen/Qwen1.5-4B-Chat",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 4,
+      "cost_usd_per_1k_tokens": 0.00048
+    },
+    "Qwen__Qwen1.5-7B-Chat": {
+      "hf_id": "Qwen/Qwen1.5-7B-Chat",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "google__gemma-7b-it": {
+      "hf_id": "google/gemma-7b-it",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "meta-llama__Llama-2-70b-chat-hf": {
+      "hf_id": "meta-llama/Llama-2-70b-chat-hf",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 70,
+      "cost_usd_per_1k_tokens": 0.00840
+    },
+    "allenai__tulu-2-dpo-70b": {
+      "hf_id": "allenai/tulu-2-dpo-70b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 70,
+      "cost_usd_per_1k_tokens": 0.00840
+    },
+    "lmsys__vicuna-33b-v1.3": {
+      "hf_id": "lmsys/vicuna-33b-v1.3",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 33,
+      "cost_usd_per_1k_tokens": 0.00396
+    },
+    "upstage__SOLAR-10.7B-Instruct-v1.0": {
+      "hf_id": "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 10.7,
+      "cost_usd_per_1k_tokens": 0.00128
+    },
+    "openchat__openchat-3.5": {
+      "hf_id": "openchat/openchat-3.5",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "HuggingFaceH4__zephyr-7b-beta": {
+      "hf_id": "HuggingFaceH4/zephyr-7b-beta",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "lmsys__vicuna-13b-v1.5-16k": {
+      "hf_id": "lmsys/vicuna-13b-v1.5-16k",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "TheBloke__WizardLM-13B-V1.2-GGUF": {
+      "hf_id": "TheBloke/WizardLM-13B-V1.2-GGUF",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "NousResearch__Nous-Hermes-13b": {
+      "hf_id": "NousResearch/Nous-Hermes-13b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "lmsys__vicuna-7b-v1.5-16k": {
+      "hf_id": "lmsys/vicuna-7b-v1.5-16k",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "nomic-ai__gpt4all-13b-snoozy": {
+      "hf_id": "nomic-ai/gpt4all-13b-snoozy",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "mosaicml__mpt-7b-chat": {
+      "hf_id": "mosaicml/mpt-7b-chat",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "stabilityai__stablelm-tuned-alpha-7b": {
+      "hf_id": "stabilityai/stablelm-tuned-alpha-7b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "deepseek-ai__deepseek-llm-67b-chat": {
+      "hf_id": "deepseek-ai/deepseek-llm-67b-chat",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 67,
+      "cost_usd_per_1k_tokens": 0.00804
+    },
+    "CausalLM__34b-beta": {
+      "hf_id": "CausalLM/34b-beta",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "SUSTech__SUS-Chat-72B": {
+      "hf_id": "SUSTech/SUS-Chat-72B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 72,
+      "cost_usd_per_1k_tokens": 0.00864
+    },
+    "Intel__neural-chat-7b-v3-3": {
+      "hf_id": "Intel/neural-chat-7b-v3-3",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "JaeyeonKang__CCK-Asura-v1": {
+      "hf_id": "JaeyeonKang/CCK-Asura-v1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "ConvexAI__Luminex-34B-v0.1": {
+      "hf_id": "ConvexAI/Luminex-34B-v0.1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "eren23__ogno-monarch-jaskier-merge-7b-OH-PREF-DPO": {
+      "hf_id": "eren23/ogno-monarch-jaskier-merge-7b-OH-PREF-DPO",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "FelixChao__Scorpio-7B": {
+      "hf_id": "FelixChao/Scorpio-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "kevin009__llamaRAGdrama": {
+      "hf_id": "kevin009/llamaRAGdrama",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "AiMavenAi__Prometheus-1.3": {
+      "hf_id": "AiMavenAi/Prometheus-1.3",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 1.3,
+      "cost_usd_per_1k_tokens": 0.00016
+    },
+    "cognitivecomputations__yayi2-30b-llama": {
+      "hf_id": "cognitivecomputations/yayi2-30b-llama",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 30,
+      "cost_usd_per_1k_tokens": 0.00360
+    },
+    "fblgit__UNA-SimpleSmaug-34b-v1beta": {
+      "hf_id": "fblgit/UNA-SimpleSmaug-34b-v1beta",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "microsoft__Orca-2-13b": {
+      "hf_id": "microsoft/Orca-2-13b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "cloudyu__Mixtral-11Bx2-MoE-19B": {
+      "hf_id": "cloudyu/Mixtral-11Bx2-MoE-19B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 11,
+      "cost_usd_per_1k_tokens": 0.00132
+    },
+    "Deci__DeciLM-7B": {
+      "hf_id": "Deci/DeciLM-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "scb10x__typhoon-7b": {
+      "hf_id": "scb10x/typhoon-7b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "01-ai__Yi-6B": {
+      "hf_id": "01-ai/Yi-6B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 6,
+      "cost_usd_per_1k_tokens": 0.00072
+    },
+    "augmxnt__shisa-base-7b-v1": {
+      "hf_id": "augmxnt/shisa-base-7b-v1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "golaxy__gowizardlm": {
+      "hf_id": "golaxy/gowizardlm",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "mlabonne__AlphaMonarch-7B": {
+      "hf_id": "mlabonne/AlphaMonarch-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "shadowml__MBeagleX-7B": {
+      "hf_id": "shadowml/MBeagleX-7B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "deepseek-ai__deepseek-math-7b-instruct": {
+      "hf_id": "deepseek-ai/deepseek-math-7b-instruct",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "kyujinpy__Sakura-SOLRCA-Math-Instruct-DPO-v1": {
+      "hf_id": "kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v1",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "Plaban81__Moe-4x7b-math-reason-code": {
+      "hf_id": "Plaban81/Moe-4x7b-math-reason-code",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "abhishek__zephyr-beta-math": {
+      "hf_id": "abhishek/zephyr-beta-math",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "EleutherAI__llemma-34b": {
+      "hf_id": "EleutherAI/llemma-34b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.00408
+    },
+    "FelixChao__vicuna-7B-physics": {
+      "hf_id": "FelixChao/vicuna-7B-physics",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "FelixChao__vicuna-7B-chemical": {
+      "hf_id": "FelixChao/vicuna-7B-chemical",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "BioMistral__BioMistral-7B-DARE": {
+      "hf_id": "BioMistral/BioMistral-7B-DARE",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "Biomimicry-AI__ANIMA-Nectar-v2": {
+      "hf_id": "Biomimicry-AI/ANIMA-Nectar-v2",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "codellama__CodeLlama-13b-Instruct-hf": {
+      "hf_id": "codellama/CodeLlama-13b-Instruct-hf",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.00156
+    },
+    "deepseek-ai__deepseek-coder-6.7b-instruct": {
+      "hf_id": "deepseek-ai/deepseek-coder-6.7b-instruct",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 6.7,
+      "cost_usd_per_1k_tokens": 0.00080
+    },
+    "TheBloke__CodeLlama-70B-Instruct-AWQ": {
+      "hf_id": "TheBloke/CodeLlama-70B-Instruct-AWQ",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 70,
+      "cost_usd_per_1k_tokens": 0.00840
+    },
+    "AdaptLLM__medicine-LLM": {
+      "hf_id": "AdaptLLM/medicine-LLM",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "Writer__palmyra-med-20b": {
+      "hf_id": "Writer/palmyra-med-20b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 20,
+      "cost_usd_per_1k_tokens": 0.00240
+    },
+    "Neko-Institute-of-Science__metharme-7b": {
+      "hf_id": "Neko-Institute-of-Science/metharme-7b",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "SciPhi__SciPhi-Mistral-7B-32k": {
+      "hf_id": "SciPhi/SciPhi-Mistral-7B-32k",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "codefuse-ai__CodeFuse-DeepSeek-33B": {
+      "hf_id": "codefuse-ai/CodeFuse-DeepSeek-33B",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 33,
+      "cost_usd_per_1k_tokens": 0.00396
+    },
+    "bigcode__octocoder": {
+      "hf_id": "bigcode/octocoder",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "meta-llama__Meta-Llama-3-8B-Instruct": {
+      "hf_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 8,
+      "cost_usd_per_1k_tokens": 0.00096
+    },
+    "meta-llama__Meta-Llama-3-70B-Instruct": {
+      "hf_id": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 70,
+      "cost_usd_per_1k_tokens": 0.00840
+    },
+    "Qwen__Qwen1.5-32B-Chat": {
+      "hf_id": "Qwen/Qwen1.5-32B-Chat",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 32,
+      "cost_usd_per_1k_tokens": 0.00384
+    },
+    "Qwen__Qwen1.5-0.5B-Chat": {
+      "hf_id": "Qwen/Qwen1.5-0.5B-Chat",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 0.5,
+      "cost_usd_per_1k_tokens": 0.00006
+    },
+    "Nexusflow__Starling-LM-7B-beta": {
+      "hf_id": "Nexusflow/Starling-LM-7B-beta",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "eachadea__vicuna-13b-1.1": {
+    "hf_id": "eachadea/vicuna-13b-1.1",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 13,
+    "cost_usd_per_1k_tokens": 0.00156
+    },
+    "chavinlo__alpaca-native": {
+    "hf_id": "chavinlo/alpaca-native",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 13,
+    "cost_usd_per_1k_tokens": 0.00156
+    },
+    "TheBloke__koala-7B-HF": {
+        "hf_id": "TheBloke/koala-7B-HF",
+        "modality": "text",
+        "latency_ms": 0,
+        "n_params": 7,
+        "cost_usd_per_1k_tokens": 0.00084
+    },
+    "mosesjun0h__llama-7b-hf-baize-lora-bf16": {
+        "hf_id": "mosesjun0h/llama-7b-hf-baize-lora-bf16",
+        "modality": "text",
+        "latency_ms": 0,
+        "n_params": 7,
+        "cost_usd_per_1k_tokens": 0.00084
+    },
+    "google__flan-t5-xxl": {
+        "hf_id": "google/flan-t5-xxl",
+        "modality": "text",
+        "latency_ms": 0,
+        "n_params": 11,
+        "cost_usd_per_1k_tokens": 0.00132
+    },
+    "THUDM__chatglm-6b":
+    {
+        "hf_id": "THUDM/chatglm-6b",
+        "modality": "text",
+        "latency_ms": 0,
+        "n_params": 6,
+        "cost_usd_per_1k_tokens": 0.00072
+    },
+    "fnlp__moss-moon-003-sft": {
+        "hf_id": "fnlp/moss-moon-003-sft",
+        "modality": "text",
+        "latency_ms": 0,
+        "n_params": 16,
+        "cost_usd_per_1k_tokens": 0.00192
+    },
+    "mosaicml__mpt-7b-instruct": {
+      "hf_id": "mosaicml/mpt-7b-instruct",
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.00084
+    },
+    "claude-instant-v1": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.0014
+    },
+    "gpt-4-1106-preview": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.0083
+    },
+    "meta__llama-2-70b-chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 70,
+      "cost_usd_per_1k_tokens": 0.0014
+    },
+    "claude-v1": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.006
+    },
+    "claude-v2": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.0065
+    },
+    "mistralai__mixtral-8x7b-chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 56,
+      "cost_usd_per_1k_tokens": 0.0013
+    },
+    "zero-one-ai__Yi-34B-Chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.0014
+    },
+    "meta__code-llama-instruct-34b-chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.0014
+    },
+     "mistralai__mistral-7b-chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.0011
+    },
+    "gpt-3.5-turbo-1106": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.00150
+    },
+    "WizardLM__WizardLM-13B-V1.2": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.0012
+    }
+}

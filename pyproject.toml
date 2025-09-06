@@ -1,0 +1,29 @@
+
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "router"
+version = "0.1.0"
+description = "Adaptive routing for LLMs using descriptors and k-NN"
+authors = [
+    { name = "Reza Shirkavand", email = "rezashkv@umd.du" }
+]
+dependencies = [
+    "transformers",
+    "datasets",
+    "faiss-cpu",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "torch",
+    "tqdm",
+    "hydra-core"
+]
+
+[project.scripts]
+generate-probes = "scripts.generate_probes:main"
+compute-descriptors = "scripts.compute_descriptors:main"
+sanity-check = "scripts.sanity_check_descriptors:main"
