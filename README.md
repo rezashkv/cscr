@@ -1,4 +1,4 @@
-# Cost Aware Contrastive Router for LLMs
+# [NeurIPS 2025 spotlight] Cost Aware Contrastive Router for LLMs
 
 This repository is the implementation of the CSCR paper:
 
