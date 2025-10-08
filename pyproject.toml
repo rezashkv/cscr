@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "router"
 version = "0.1.0"
-description = "Adaptive routing for LLMs using descriptors and k-NN"
+description = "Cost-Aware Contrastive Routing for LLMs"
 authors = [
     { name = "Reza Shirkavand", email = "rezashkv@umd.du" }
 ]
