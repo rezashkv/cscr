@@ -19,8 +19,8 @@ python scripts/generate_probes.py \
 
 # 3) Compute a logit‑based descriptor for one expert model (EmbedLLM + MixInstruct probes)
 python scripts/compute_descriptors.py \
-  --model meta-llama/Llama-2-7b-hf \
-  --probes_files data/probes_embedllm-192.json data/probes_mix-instruct-192.json \
+  --model deepseek-ai/DeepSeek-R1-Distill-Qwen-7B \
+  --probes_files data/probes_embedllm-192.json data/probes_mix_instruct-192.json \
   --out experts/llama2-7b \
   --topk 256 --n_tokens 10
 

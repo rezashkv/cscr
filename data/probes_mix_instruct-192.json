@@ -1,0 +1,770 @@
+[
+  {
+    "prompt": " Is it true that if you eat a banana before you run, you'll run faster?",
+    "id": "unified_chip2/25723"
+  },
+  {
+    "prompt": " I'd like to know the names of the most influential people in the history of medicine.",
+    "id": "unified_chip2/141205"
+  },
+  {
+    "prompt": " What is the name of the show?",
+    "id": "unified_chip2/145279"
+  },
+  {
+    "prompt": " What should I do with all of my old clothes?",
+    "id": "unified_chip2/16919"
+  },
+  {
+    "prompt": " Make a concise location description of a melancholy scene outside wilderness marsh with stones, slime, and road.",
+    "id": "unified_chip2/161239"
+  },
+  {
+    "prompt": " Is it okay for a person to use a sling for their baby's first six months?",
+    "id": "unified_chip2/41146"
+  },
+  {
+    "prompt": " Are there any good books that are currently selling?",
+    "id": "unified_chip2/16537"
+  },
+  {
+    "prompt": "What new car should I buy for my family? ",
+    "id": "dolly_15k/general_qa/1343"
+  },
+  {
+    "prompt": "For the given employee data, work out their total salary from the salary grade and yearly salary information. Employee1: Grade: 1, YearlySalary: 80000\nEmployee2: Grade: 5, YearlySalary: 120000",
+    "id": "itwgpt4/42267"
+  },
+  {
+    "prompt": " I've heard that the United States is the only country that hasn't been invaded. Is that true?",
+    "id": "unified_chip2/77169"
+  },
+  {
+    "prompt": " Translate the Korean phrase below into English; the context is, 'sending away 2022 and welcoming the new year, 2023.'\n\n- Korean phrase : \"\uc548\ub155 2022, \uc548\ub155 2023\u201d",
+    "id": "sharegpt/FC9717d_0"
+  },
+  {
+    "prompt": " Bernard walks of to go home. On a street he meets his high school friend Dan.\n[Instruction: Stop typing right after Bernard finishes his line.]\n\nDan: Hi Bernard!",
+    "id": "sharegpt/fOt1hVu_0"
+  },
+  {
+    "prompt": " Spooky scene outside of a medieval keep with a rope hanging from the parapet.",
+    "id": "unified_chip2/69542"
+  },
+  {
+    "prompt": " What is the name of the university where the underground LGBTQ community launched a website in support of promoting dialogue and reconsideration of Biola's expulsion policy regarding homosexual behavior?",
+    "id": "unified_chip2/90985"
+  },
+  {
+    "prompt": " Generate a description of a warm scene inside a building home with chairs and a stage.",
+    "id": "unified_chip2/19330"
+  },
+  {
+    "prompt": " Why is it that the universe is so finely tuned for life?",
+    "id": "unified_chip2/47759"
+  },
+  {
+    "prompt": "From the following list, categorize the what country these dishes originate from: Tamales, Butter Chicken, Mac and Cheese, Pizza, Pozole, Nicoise Salad, Ramen, Trifle, Empanadas, Ceviche, Feijoda, Burrito, Jollaf Rice, Tagine, Couscous ",
+    "id": "dolly_15k/classification/678"
+  },
+  {
+    "prompt": " When did the United States enter World War I?",
+    "id": "unified_chip2/88064"
+  },
+  {
+    "prompt": " My doctor wants me to take a urinalysis. What is the procedure like?",
+    "id": "unified_chip2/157519"
+  },
+  {
+    "prompt": " Is it true that some people are born with a natural talent for music?",
+    "id": "unified_chip2/92738"
+  },
+  {
+    "prompt": " What are some good books to read this summer?",
+    "id": "unified_chip2/86072"
+  },
+  {
+    "prompt": " Who came up with the theory of the Big Bang?",
+    "id": "unified_chip2/138700"
+  },
+  {
+    "prompt": "Get the synonyms of \u201cnervous\u201d. ",
+    "id": "itwgpt4/17908"
+  },
+  {
+    "prompt": " Is there a list of the best credit card offers for students?",
+    "id": "unified_chip2/20"
+  },
+  {
+    "prompt": " Is it true that if you eat a lot of broccoli you will live longer?",
+    "id": "unified_chip2/33505"
+  },
+  {
+    "prompt": "What is the difference between earphones and headphones? ",
+    "id": "dolly_15k/general_qa/632"
+  },
+  {
+    "prompt": " I'm having trouble finding a book in my library. What should I do?",
+    "id": "unified_chip2/150083"
+  },
+  {
+    "prompt": "Detect any gender bias in the sentence and suggest an alternate phrase. The CEO appointed two of his sons to the job.",
+    "id": "itwgpt4/34012"
+  },
+  {
+    "prompt": " How many Olympic medals did Michael Phelps win?",
+    "id": "unified_chip2/47373"
+  },
+  {
+    "prompt": " I've heard about a new kind of energy that is being developed. What is it?",
+    "id": "unified_chip2/83710"
+  },
+  {
+    "prompt": "What is the Big 10 conference? ",
+    "id": "dolly_15k/general_qa/815"
+  },
+  {
+    "prompt": " After having the meeting cancelled, should Ryan watch a movie instead of going out of the town with three hours in hand?",
+    "id": "unified_chip2/125002"
+  },
+  {
+    "prompt": "Is the manatee an endangered species? ",
+    "id": "dolly_15k/open_qa/3178"
+  },
+  {
+    "prompt": " How long do I have to wait to get a credit card after declaring bankruptcy?",
+    "id": "unified_chip2/94656"
+  },
+  {
+    "prompt": " What is the best zoo in the San Francisco Bay Area?",
+    "id": "unified_chip2/77806"
+  },
+  {
+    "prompt": " What is a 'distressed property'?",
+    "id": "unified_chip2/92064"
+  },
+  {
+    "prompt": " How do I get my hands on a copy of the Declaration of Independence?",
+    "id": "unified_chip2/77311"
+  },
+  {
+    "prompt": "Why Indians are so beautiful ",
+    "id": "dolly_15k/brainstorming/947"
+  },
+  {
+    "prompt": " How can I fix a broken computer?",
+    "id": "unified_chip2/164747"
+  },
+  {
+    "prompt": " How can I find out if I'm eligible for a tax refund?",
+    "id": "unified_chip2/60762"
+  },
+  {
+    "prompt": "We have a dataset containing US zip codes and county names. Classify each record based on the given data. 11040 | Nassau \n75034 | Collin",
+    "id": "itwgpt4/38127"
+  },
+  {
+    "prompt": "Edit the sentence making sure that all pronouns used are grammatically correct. Students should give their opinions honestly and openly.",
+    "id": "itwgpt4/47447"
+  },
+  {
+    "prompt": " How to unlock an AT&T iPhone?",
+    "id": "unified_chip2/165007"
+  },
+  {
+    "prompt": "How to add two cells in Excel? ",
+    "id": "dolly_15k/general_qa/969"
+  },
+  {
+    "prompt": "Which country produces the most pineapples? ",
+    "id": "dolly_15k/open_qa/1666"
+  },
+  {
+    "prompt": "Classify each of the following as a state or a city: Florida, Texas, Alaska, Houston, Charlotte, Charleston, Savannah, Kansas, San Diego ",
+    "id": "dolly_15k/classification/175"
+  },
+  {
+    "prompt": "What is ADSL? ",
+    "id": "dolly_15k/open_qa/1757"
+  },
+  {
+    "prompt": " Is there a way to tell how old a plant is?",
+    "id": "unified_chip2/160789"
+  },
+  {
+    "prompt": " What was the basis of the court case involving the conflicting wills of Allan Monks?",
+    "id": "unified_chip2/55896"
+  },
+  {
+    "prompt": "Generate a fact-based statement that conveys a subtle message. Chocolate contains theobromine, which is a mild stimulant.",
+    "id": "itwgpt4/38438"
+  },
+  {
+    "prompt": " What are the best places to buy cheap hats online?",
+    "id": "unified_chip2/69128"
+  },
+  {
+    "prompt": " Create a brief description of a spooky place a magical apothecary with a granite workbench and stone steps leading to a small platform.",
+    "id": "unified_chip2/12605"
+  },
+  {
+    "prompt": " Kristine traveled to Paris in France to visit her friend. On the way, she has driven a train for 300 km and a bus for half that distance. After arriving in the city, she had to take a cab and drove three times fewer kilometers than she rode the bus. How many kilometers in total had Kristine traveled to reach her destination?",
+    "id": "unified_chip2/8590"
+  },
+  {
+    "prompt": " Which is more important: eating organic foods or avoiding chemicals?",
+    "id": "unified_chip2/145826"
+  },
+  {
+    "prompt": " What is the best way to keep my dog from chasing squirrels?",
+    "id": "unified_chip2/87308"
+  },
+  {
+    "prompt": "What is the meaning of RCA in software ",
+    "id": "dolly_15k/brainstorming/635"
+  },
+  {
+    "prompt": " Is it okay to take a vacation in a place where there is a high risk of Zika virus?",
+    "id": "unified_chip2/92832"
+  },
+  {
+    "prompt": "Make a list, using dot points, of the five foods I might find in the dairy section of a supermarket ",
+    "id": "dolly_15k/brainstorming/748"
+  },
+  {
+    "prompt": " What is the name of the fairy tale where the wicked stepmother threatens a young princess?",
+    "id": "unified_chip2/6181"
+  },
+  {
+    "prompt": " I've heard that some people are allergic to peanuts. Is it possible for people to be allergic to other types of nuts as well?",
+    "id": "unified_chip2/56265"
+  },
+  {
+    "prompt": " Sally Draper gave her dad Don Draper 10oz of rum on his pancakes. Don can consume a maximum of 3 times that amount of rum for a healthy diet. If he already had 12oz of rum earlier that day, how many oz of rum can Don have after eating all of the rum and pancakes?",
+    "id": "unified_chip2/111766"
+  },
+  {
+    "prompt": "Will stock price go up or go down tomorrow? ",
+    "id": "dolly_15k/open_qa/3108"
+  },
+  {
+    "prompt": "Generate a three-sentence story based on the given input. A snowman in a dark forest",
+    "id": "itwgpt4/3411"
+  },
+  {
+    "prompt": " Should I go to a public or private school for my children?",
+    "id": "unified_chip2/129479"
+  },
+  {
+    "prompt": " How do you find the average salary for a particular occupation?",
+    "id": "unified_chip2/114093"
+  },
+  {
+    "prompt": " What was the name of the man who Eisenhower considered as a potential running mate?",
+    "id": "unified_chip2/130731"
+  },
+  {
+    "prompt": " How do I add columns to a Microsoft Word document?",
+    "id": "unified_chip2/51160"
+  },
+  {
+    "prompt": " Where does the antiviral drug come from?",
+    "id": "unified_chip2/69874"
+  },
+  {
+    "prompt": "Summarize the advantages of studying abroad ",
+    "id": "itwgpt4/50384"
+  },
+  {
+    "prompt": " Is it safe for me to take my children to the zoo?",
+    "id": "unified_chip2/16519"
+  },
+  {
+    "prompt": " How can I learn more about the history of a particular topic?",
+    "id": "unified_chip2/61071"
+  },
+  {
+    "prompt": "I want to go to Europe, which of these cities are in that continent? Lisbon, Barcelona, Paris, Rome, London, Tokyo, New York City, Perth? ",
+    "id": "dolly_15k/classification/1718"
+  },
+  {
+    "prompt": "Given a list of numbers in random order, arrange them in ascending order. 5, 2, 4, 1, 8",
+    "id": "itwgpt4/21498"
+  },
+  {
+    "prompt": " How can I tell if my sand sculpture is done correctly?",
+    "id": "unified_chip2/11331"
+  },
+  {
+    "prompt": "Generate a programming solution to output all the numbers from 1 to 10. ",
+    "id": "itwgpt4/21357"
+  },
+  {
+    "prompt": " Please create a brief description of a gloomy ravine with a sheer wall of crumbling shale and a few yellow flowers.",
+    "id": "unified_chip2/140702"
+  },
+  {
+    "prompt": " I'm trying to find out if a person can get pregnant if they are using a sperm donor?",
+    "id": "unified_chip2/164216"
+  },
+  {
+    "prompt": " Make a concise location description of a deserted mountain scene with boulders and rock.",
+    "id": "unified_chip2/64085"
+  },
+  {
+    "prompt": " I'd like to find out what the best-known philosophers are.",
+    "id": "unified_chip2/82180"
+  },
+  {
+    "prompt": " What is the name of the book that won Bryson The Aventis Prizes for Science Books?",
+    "id": "unified_chip2/163116"
+  },
+  {
+    "prompt": " I've been having a few problems with my partner lately. What's the best way to deal with this?",
+    "id": "unified_chip2/28790"
+  },
+  {
+    "prompt": " I've been diagnosed with fibromyalgia. How can I manage it?",
+    "id": "unified_chip2/159324"
+  },
+  {
+    "prompt": "Provide an appropriate response to this customer complaint:\n\"I have never received my order\" ",
+    "id": "itwgpt4/26545"
+  },
+  {
+    "prompt": "Reverse the following word: \"account\" ",
+    "id": "itwgpt4/17257"
+  },
+  {
+    "prompt": "Suggest an application of artificial intelligence. ",
+    "id": "itwgpt4/46381"
+  },
+  {
+    "prompt": "What causes a spinning top to stop? ",
+    "id": "dolly_15k/open_qa/228"
+  },
+  {
+    "prompt": "Describe the content with suitable adjectives and nouns. The movie plot was about a group of young adults.",
+    "id": "itwgpt4/27526"
+  },
+  {
+    "prompt": " Where is the American South?",
+    "id": "unified_chip2/135101"
+  },
+  {
+    "prompt": "Come up with a list of ten adjectives that describe your grandmother. ",
+    "id": "itwgpt4/1930"
+  },
+  {
+    "prompt": " How do I know when my car needs an oil change?",
+    "id": "unified_chip2/119823"
+  },
+  {
+    "prompt": "Compare two given items and output a sentence. Python and Javascript",
+    "id": "itwgpt4/43127"
+  },
+  {
+    "prompt": " How did Areop-Enap create humans from stones so they could support the sky?",
+    "id": "unified_chip2/138908"
+  },
+  {
+    "prompt": " Sara sent letters to her friend in China every month. She sent 6 letters in January, 9 letters in February, and in March she sent triple the number of letters she sent in January. How many letters does Sara send?",
+    "id": "unified_chip2/53179"
+  },
+  {
+    "prompt": " Generate for me a description of a serene scene inside of a shop with a glass counter and a dangling wind chime.",
+    "id": "unified_chip2/21191"
+  },
+  {
+    "prompt": "Is the following statement a metaphor? Life is a winding road.",
+    "id": "itwgpt4/43370"
+  },
+  {
+    "prompt": "Analyze the meaning behind this proverb A closed mouth catches no flies",
+    "id": "itwgpt4/13669"
+  },
+  {
+    "prompt": " What are some effective ways to manage stress?",
+    "id": "unified_chip2/41995"
+  },
+  {
+    "prompt": " What are some tips to help me find a job this summer?",
+    "id": "unified_chip2/74758"
+  },
+  {
+    "prompt": " I've always wanted to try out for a professional sports team but I don't know how to go about doing that. Where can I get information on that?",
+    "id": "unified_chip2/148237"
+  },
+  {
+    "prompt": " Why did the main character, a young woman, have a shaved head in the movie \u2018Internal monologue\u2019?",
+    "id": "unified_chip2/155491"
+  },
+  {
+    "prompt": " Which is the best investment opportunity - stocks, bonds, or gold?",
+    "id": "unified_chip2/86107"
+  },
+  {
+    "prompt": "Make a self-contained sentence that communicates the given fact. Fact: The show \"Friends\" was a hit in the 90s.",
+    "id": "itwgpt4/46576"
+  },
+  {
+    "prompt": "please give me a short description about SVB collapse On Friday, March 10, 2023, Silicon Valley Bank (SVB) failed after a bank run, marking the second-largest bank failure in United States history and the largest since the 2007\u20132008 financial crisis.[1][2] It was one of three March 2023 United States bank failures.",
+    "id": "dolly_15k/summarization/182"
+  },
+  {
+    "prompt": " Where is the Supreme Court located?",
+    "id": "unified_chip2/36078"
+  },
+  {
+    "prompt": " I need to buy new shoes for my job. What are the best shoes for working in a factory?",
+    "id": "unified_chip2/134516"
+  },
+  {
+    "prompt": " When did the 15th Tank Battalion fight in the Battle of the Bulge?",
+    "id": "unified_chip2/15680"
+  },
+  {
+    "prompt": " Where is the best place to get an oil change near me?",
+    "id": "unified_chip2/146248"
+  },
+  {
+    "prompt": " What was the name of the disease that caused the Great Plague of London?",
+    "id": "unified_chip2/14111"
+  },
+  {
+    "prompt": " How many calories are burned when you do a certain activity?",
+    "id": "unified_chip2/2157"
+  },
+  {
+    "prompt": " What is the highest peak in the alps?",
+    "id": "unified_chip2/75822"
+  },
+  {
+    "prompt": " I've heard that the polar bears are in trouble. What's going on?",
+    "id": "unified_chip2/11047"
+  },
+  {
+    "prompt": " How do I get my hair to look like it's naturally curly?",
+    "id": "unified_chip2/98499"
+  },
+  {
+    "prompt": " What is the best way to heal a sprained ankle?",
+    "id": "unified_chip2/51759"
+  },
+  {
+    "prompt": " You have entered where you are in a comedic scene outside town with halfling vendors and a street lamp.",
+    "id": "unified_chip2/160156"
+  },
+  {
+    "prompt": "Write three sentences about the impact of technology on society ",
+    "id": "itwgpt4/30616"
+  },
+  {
+    "prompt": " When was the book \u2018The Arabian Nights\u2019 written?",
+    "id": "unified_chip2/59603"
+  },
+  {
+    "prompt": "Find and classify the type of errors in the text. The birds flyed up in the air.",
+    "id": "itwgpt4/22804"
+  },
+  {
+    "prompt": "Name a technical tool that could be used to analyze the following data A company's digital marketing campaigns.",
+    "id": "itwgpt4/32437"
+  },
+  {
+    "prompt": " I'm getting married and need to find a wedding dress. What should I look for?",
+    "id": "unified_chip2/7381"
+  },
+  {
+    "prompt": " I'm looking to buy a new car. What should I look for when choosing a vehicle?",
+    "id": "unified_chip2/49730"
+  },
+  {
+    "prompt": " What are the top ten tourist attractions in Tokyo?",
+    "id": "unified_chip2/106608"
+  },
+  {
+    "prompt": " You pick up where you find yourself in a spooky scene outside a swamp with toadstools and vines.",
+    "id": "unified_chip2/101039"
+  },
+  {
+    "prompt": " What should I look for in a personal injury attorney?",
+    "id": "unified_chip2/162912"
+  },
+  {
+    "prompt": " Describe a dreary scene outside town with a cobblestone road, a kraken statue, and willow branches.",
+    "id": "unified_chip2/90842"
+  },
+  {
+    "prompt": " How can I get my kids to enjoy reading?",
+    "id": "unified_chip2/25514"
+  },
+  {
+    "prompt": " Is it possible to lose weight without exercise?",
+    "id": "unified_chip2/152469"
+  },
+  {
+    "prompt": " What is a good Python function to see if something is formatted properly.",
+    "id": "unified_chip2/4726"
+  },
+  {
+    "prompt": " I'm having a hard time deciding what college to go to. Can you help me?",
+    "id": "unified_chip2/143490"
+  },
+  {
+    "prompt": " What's better, frilly lingerie and complete nudity?",
+    "id": "unified_chip2/97628"
+  },
+  {
+    "prompt": " Pineapple on pizza is gross and should be consider a culinary crime. What the hell were they thinking?",
+    "id": "unified_chip2/120109"
+  },
+  {
+    "prompt": " I'm looking for a new pair of shoes. What kind should I buy?",
+    "id": "unified_chip2/162273"
+  },
+  {
+    "prompt": "Does structured streaming support joins? ",
+    "id": "dolly_15k/general_qa/309"
+  },
+  {
+    "prompt": " Is there a good place to get a tattoo near me?",
+    "id": "unified_chip2/19227"
+  },
+  {
+    "prompt": " Is it likely easier to hammer a nail into rubber than into cement?",
+    "id": "unified_chip2/99626"
+  },
+  {
+    "prompt": " What did Bill Graham say about losing the Rolling Stones?",
+    "id": "unified_chip2/11369"
+  },
+  {
+    "prompt": " I have a question about the life of Theodore Roosevelt (politician). What was his nickname?",
+    "id": "unified_chip2/150612"
+  },
+  {
+    "prompt": " How old was the Cro-Magnon man?",
+    "id": "unified_chip2/58833"
+  },
+  {
+    "prompt": " Can you show me the formula to calculate the caloric intake required to lose one pound of body fat?",
+    "id": "unified_chip2/165199"
+  },
+  {
+    "prompt": " In the book, \u2018The Art of Valuation\u2019, what is the definition of a \u2018discount rate\u2019?",
+    "id": "unified_chip2/17691"
+  },
+  {
+    "prompt": "Why Santorini is Famous ",
+    "id": "dolly_15k/brainstorming/558"
+  },
+  {
+    "prompt": "Name 3 iconic landmarks in a given city Paris",
+    "id": "itwgpt4/17572"
+  },
+  {
+    "prompt": "What are the different payment methods for payment inside a US store? ",
+    "id": "dolly_15k/brainstorming/1017"
+  },
+  {
+    "prompt": " What was the name of the development that the Earth Liberation Front burned down?",
+    "id": "unified_chip2/69876"
+  },
+  {
+    "prompt": " What is a good Python function to change a comma separated string to list.",
+    "id": "unified_chip2/911"
+  },
+  {
+    "prompt": " Is it OK to ask questions like these?",
+    "id": "unified_chip2/2879"
+  },
+  {
+    "prompt": " Is a prepaid phone card a good idea?",
+    "id": "unified_chip2/140583"
+  },
+  {
+    "prompt": " Should I take my family on a road trip?",
+    "id": "unified_chip2/42682"
+  },
+  {
+    "prompt": " How big is the Sahara Desert?",
+    "id": "unified_chip2/19293"
+  },
+  {
+    "prompt": " What should I do to prevent getting a cold?",
+    "id": "unified_chip2/163971"
+  },
+  {
+    "prompt": " Write a warm scene inside a building home with cauldrons, ovens, and lichen bread.",
+    "id": "unified_chip2/62387"
+  },
+  {
+    "prompt": " Which is more important: reading books or watching movies?",
+    "id": "unified_chip2/104176"
+  },
+  {
+    "prompt": " Describe a risky scene outside a boat ship with propellers and a red brass railing.",
+    "id": "unified_chip2/94985"
+  },
+  {
+    "prompt": " Create an eerie scene outside town with miners, ore, and a wheelbarrow.",
+    "id": "unified_chip2/70938"
+  },
+  {
+    "prompt": " Is it true that you can't see stars when it's cloudy?",
+    "id": "unified_chip2/144765"
+  },
+  {
+    "prompt": " I have a question about the difference between top down and bottom up emergence. Who was the first person to use the term bottom up emergence?",
+    "id": "unified_chip2/32873"
+  },
+  {
+    "prompt": "Name a place where you can find tapioca ",
+    "id": "itwgpt4/33938"
+  },
+  {
+    "prompt": "I need some ideas for a first date. ",
+    "id": "dolly_15k/creative_writing/187"
+  },
+  {
+    "prompt": " Can I get my dog to stop licking his paws?",
+    "id": "unified_chip2/12010"
+  },
+  {
+    "prompt": " <unk>item_id_0> a depressing scene inside a prison with a cot and table.",
+    "id": "unified_chip2/155657"
+  },
+  {
+    "prompt": " Is it worth getting a pet guinea pig?",
+    "id": "unified_chip2/133292"
+  },
+  {
+    "prompt": "Identify the most common symptom in the given condition. Migraine",
+    "id": "itwgpt4/26164"
+  },
+  {
+    "prompt": " What is the best way to clean a glass oven door without scratching it?",
+    "id": "unified_chip2/77488"
+  },
+  {
+    "prompt": " Four tires and one battery together cost $224. Each tire costs $42. Calculate the price of the battery.",
+    "id": "unified_chip2/19392"
+  },
+  {
+    "prompt": "Categorise the given species as either vertebrate or invertebrate Squirrel",
+    "id": "itwgpt4/5293"
+  },
+  {
+    "prompt": " What is the best way to get my house clean and smell good?",
+    "id": "unified_chip2/144819"
+  },
+  {
+    "prompt": " Sometimes I like to hide in my neighbors bushes so that I can watch her undress.",
+    "id": "unified_chip2/91608"
+  },
+  {
+    "prompt": " Matilda had 20 chocolate bars and shared them evenly amongst herself and her 4 sisters. When her father got home from work, he was upset that they did not put aside any chocolates for him. They felt bad, so they each gave up half of their chocolate bars for their father. Their father then gave 3 chocolate bars to their mother and ate 2. How many chocolate bars did Matilda's father have left?",
+    "id": "unified_chip2/115503"
+  },
+  {
+    "prompt": " What are the symptoms of a slipped disc?",
+    "id": "unified_chip2/127687"
+  },
+  {
+    "prompt": " What was the most famous poem of John Henry Conner?",
+    "id": "unified_chip2/27494"
+  },
+  {
+    "prompt": " Tom decides to renovate a house. There are 3 bedrooms and each bedroom takes 4 hours to renovate. The kitchen takes 50% longer than each bedroom. The living room took twice as much time as everything else combined. How long did everything take?",
+    "id": "unified_chip2/87695"
+  },
+  {
+    "prompt": "Choose the correct word from the list The blazing sun was too to bear.\na) tedious b) scorching c) turbulent",
+    "id": "itwgpt4/17463"
+  },
+  {
+    "prompt": "Name and describe each figure of speech in this sentence. He sold the car like hot cakes.",
+    "id": "itwgpt4/26066"
+  },
+  {
+    "prompt": " I'm having trouble sleeping. What can I do?",
+    "id": "unified_chip2/86779"
+  },
+  {
+    "prompt": " How can I save money on gas?",
+    "id": "unified_chip2/80979"
+  },
+  {
+    "prompt": "Give me a list of the top 5 Colleen Hoover books ",
+    "id": "dolly_15k/brainstorming/373"
+  },
+  {
+    "prompt": " How to run diagnostics on Mac?",
+    "id": "unified_chip2/115743"
+  },
+  {
+    "prompt": " How can I tell the difference between a slug and a snail?",
+    "id": "unified_chip2/159228"
+  },
+  {
+    "prompt": " What is the difference between a 'stock' and a 'share'?",
+    "id": "unified_chip2/121688"
+  },
+  {
+    "prompt": " What was the toughest challenge you\u2019ve faced?",
+    "id": "sharegpt/QqK7LLL_0"
+  },
+  {
+    "prompt": "Who was the best player in Denver Broncos franchise history? ",
+    "id": "dolly_15k/general_qa/1966"
+  },
+  {
+    "prompt": " What are the contents of a typical gourmet cheese plate?",
+    "id": "unified_chip2/33990"
+  },
+  {
+    "prompt": " Can you give me some advice on how to deal with an annoying coworker?",
+    "id": "unified_chip2/123223"
+  },
+  {
+    "prompt": " What are the best ways to get my child to eat vegetables?",
+    "id": "unified_chip2/60185"
+  },
+  {
+    "prompt": "Convert 0.15 kgs to grams ",
+    "id": "itwgpt4/23725"
+  },
+  {
+    "prompt": "Generate an analogy for the phrase \"castle in the air\" ",
+    "id": "itwgpt4/49901"
+  },
+  {
+    "prompt": " What's the most common mistake that people make when they're applying for a job?",
+    "id": "unified_chip2/74067"
+  },
+  {
+    "prompt": " I'd like to learn how to play the guitar. Where can I get some lessons?",
+    "id": "unified_chip2/105340"
+  },
+  {
+    "prompt": " Is the upcoming election going to have a significant impact on the economy?",
+    "id": "unified_chip2/46999"
+  },
+  {
+    "prompt": " How much should i pay to have someone do my homework",
+    "id": "unified_chip2/15921"
+  },
+  {
+    "prompt": "Shorten this sentence by removing unnecessary words. Rosalind Franklin was an English chemist, who made critical contributions to the understanding of DNA's structure.",
+    "id": "itwgpt4/14354"
+  },
+  {
+    "prompt": " I've noticed that the air quality is poor lately. What can be done to improve it?",
+    "id": "unified_chip2/90256"
+  },
+  {
+    "prompt": "Identify the scientific names for the given plants Dandelion:\nChrysanthemum:",
+    "id": "itwgpt4/42899"
+  }
+]

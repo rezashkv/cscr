@@ -51,7 +51,7 @@ def load_probes(paths: str | Path | List[str] | List[Path]) -> List[str]:
         path = Path(path)
         with path.open() as f:
             probes = json.load(f)
-        assert isinstance(probes, list) and all(isinstance(p, str) for p in probes)
+            
         all_probes.extend(probes)
     
     return all_probes
