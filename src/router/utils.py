@@ -42,7 +42,7 @@ def load_descriptors(desc_dir: str | Path, verbose: bool = False,
     
     return X, labels
 
-def load_probes(paths: str | Path | List[str] | List[Path]) -> List[str]:
+def load_probes(paths: str | Path | List[str] | List[Path], load_ids=True) -> List[str]:
     if not isinstance(paths, list):
         if isinstance(paths, str):
             paths = [paths]
@@ -51,7 +51,8 @@ def load_probes(paths: str | Path | List[str] | List[Path]) -> List[str]:
         path = Path(path)
         with path.open() as f:
             probes = json.load(f)
-            
+            if not load_ids:
+                probes = [p["prompt"] for p in probes]
         all_probes.extend(probes)
     
     return all_probes

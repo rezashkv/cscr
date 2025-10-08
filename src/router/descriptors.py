@@ -115,7 +115,7 @@ def compute_logit_descriptor(
 
 def save_descriptors(model, tokenizer, probes, out, topk=256, n_tokens=10, batch_size=8):
 
-    probes = load_probes(probes)
+    probes = load_probes(probes, load_ids=False)
     descriptor, token_ids = compute_logit_descriptor(model, tokenizer, probes, top_k=topk, n_tokens=n_tokens,
                                                       batch_size=batch_size)
 
