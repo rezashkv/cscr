@@ -13,6 +13,7 @@ authors = [
 ]
 dependencies = [
     "transformers",
+    "accelerate",
     "datasets",
     "faiss-cpu",
     "scikit-learn",
