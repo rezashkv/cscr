@@ -12,7 +12,6 @@ authors = [
     { name = "Reza Shirkavand", email = "rezashkv@umd.du" }
 ]
 dependencies = [
-    "datasets",
     "transformers",
     "datasets",
     "faiss-cpu",
