@@ -53,6 +53,7 @@ def load_probes(paths: str | Path | List[str] | List[Path], load_ids=True) -> Li
             probes = json.load(f)
             if not load_ids:
                 probes = [p["prompt"] for p in probes]
+                
         all_probes.extend(probes)
     
     return all_probes
