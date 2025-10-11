@@ -65,7 +65,7 @@ def main():
                         help="Dataset split to load from hub")
     parser.add_argument("--seed", type=int, default=47, help="Random seed for reproducibility.")
     parser.add_argument("--out", required=True, help="Output dir  path for descriptors.")
-    parser.add_argument("--dataset", default="routerbench", choices=["mix-instruct", "embedllm"],
+    parser.add_argument("--dataset", default="routerbench", choices=["mix-instruct", "embedllm", "routerbench"],
                         help="Dataset to use for descriptor generation.")
     parser.add_argument("--plot", action="store_true", help="Plot cosine similarity heatmap.")
     args = parser.parse_args()

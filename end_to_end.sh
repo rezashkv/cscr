@@ -39,10 +39,9 @@ done
 python scripts/compute_descriptors_perplexity.py \
   --probe_ids ${PROBES_ROUTERBENCH} \
   --dataset routerbench \
-  --descriptor perplexity \
   --split train \
   --out ${DESC_DIR}/routerbench \
-  --topk 256 --n_tokens 10 --plot
+  --plot
 
 echo "✅ descriptors computed"
 
