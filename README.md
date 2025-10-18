@@ -13,7 +13,7 @@ pip install -e .
 # 2) Generate probes
 python scripts/generate_probes.py \
   --n_embedllm 192 \
-  --n_mix_instruct 192 \
+  --n_mix-instruct 192 \
   --n_routerbench 192 \
   --seed 42
 

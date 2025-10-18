@@ -1,0 +1,79 @@
+{
+  "stabilityai__stablelm-tuned-alpha-7b": {
+    "hf_id": "stabilityai/stablelm-tuned-alpha-7b",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 7,
+    "cost_usd_per_1k_tokens": 0.00084
+  },
+  "OpenAssistant__oasst-sft-4-pythia-12b-epoch-3.5": {
+    "hf_id": "OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 12,
+    "cost_usd_per_1k_tokens": 0.00144
+  },
+  "databricks__dolly-v2-12b": {
+    "hf_id": "databricks/dolly-v2-12b",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 12,
+    "cost_usd_per_1k_tokens": 0.00144
+  },
+  "eachadea__vicuna-13b-1.1": {
+    "hf_id": "eachadea/vicuna-13b-1.1",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 13,
+    "cost_usd_per_1k_tokens": 0.00156
+  },
+  "chavinlo__alpaca-native": {
+    "hf_id": "chavinlo/alpaca-native",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 13,
+    "cost_usd_per_1k_tokens": 0.00156
+  },
+  "TheBloke__koala-7B-HF": {
+    "hf_id": "TheBloke/koala-7B-HF",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 7,
+    "cost_usd_per_1k_tokens": 0.00084
+  },
+  "mosesjun0h__llama-7b-hf-baize-lora-bf16": {
+    "hf_id": "mosesjun0h/llama-7b-hf-baize-lora-bf16",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 7,
+    "cost_usd_per_1k_tokens": 0.00084
+  },
+  "google__flan-t5-xxl": {
+    "hf_id": "google/flan-t5-xxl",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 11,
+    "cost_usd_per_1k_tokens": 0.00132
+  },
+  "THUDM__chatglm-6b": {
+    "hf_id": "THUDM/chatglm-6b",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 6,
+    "cost_usd_per_1k_tokens": 0.00072
+  },
+  "fnlp__moss-moon-003-sft": {
+    "hf_id": "fnlp/moss-moon-003-sft",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 16,
+    "cost_usd_per_1k_tokens": 0.00192
+  },
+  "mosaicml__mpt-7b-instruct": {
+    "hf_id": "mosaicml/mpt-7b-instruct",
+    "modality": "text",
+    "latency_ms": 0,
+    "n_params": 7,
+    "cost_usd_per_1k_tokens": 0.00084
+  }
+}

@@ -11,7 +11,7 @@ ENCODER_OUT=checkpoints/contrastive_encoder
 
 # ------------------ generate probes ------------------ #
 python scripts/generate_probes.py \
-  --n_embedllm ${N_PROBES} --n_mix_instruct ${N_PROBES} --n_routerbench ${N_PROBES} \
+  --n_embedllm ${N_PROBES} --n_mix-instruct ${N_PROBES} --n_routerbench ${N_PROBES} \
   --seed ${PROBE_SEED} --out_dir ${PROBE_DIR}
 
 echo "✅ probe sets ready"
@@ -21,15 +21,29 @@ PROBES_EMBEDLLM=${PROBE_DIR}/probes_embedllm-${N_PROBES}.json
 PROBES_MIXINSTRUCT=${PROBE_DIR}/probes_mix-instruct-${N_PROBES}.json
 PROBES_ROUTERBENCH=${PROBE_DIR}/probes_routerbench-${N_PROBES}.json
 
-# logit based descriptors
-for MODEL_ID in $(jq -r 'keys[]' experts/registry.json); do
-  HF_ID=$(jq -r --arg m "$MODEL_ID" '.[$m].hf_id' experts/registry.json)
+# logit based descriptors for embdellm
+for MODEL_ID in $(jq -r 'keys[]' experts/registry-embedllm.json); do
+  HF_ID=$(jq -r --arg m "$MODEL_ID" '.[$m].hf_id' experts/registry-embedllm.json)
   OUT_FILE=${DESC_DIR}/${MODEL_ID}_desc.npy
   if [[ ! -f ${OUT_FILE} ]]; then
     echo "Computing descriptor for $MODEL_ID ($HF_ID)"
     python scripts/compute_descriptors.py \
       --model ${HF_ID} \
-      --probes_files ${PROBES_EMBEDLLM} ${PROBES_MIXINSTRUCT} \
+      --probes_files ${PROBES_EMBEDLLM} \
+      --out ${OUT_FILE} \
+      --topk 256 --n_tokens 10
+  fi
+done
+
+# logit based descriptors for mix-instruct
+for MODEL_ID in $(jq -r 'keys[]' experts/registry-mix-instruct.json); do
+  HF_ID=$(jq -r --arg m "$MODEL_ID" '.[$m].hf_id' experts/registry-mix-instruct.json)
+  OUT_FILE=${DESC_DIR}/${MODEL_ID}_desc.npy
+  if [[ ! -f ${OUT_FILE} ]]; then
+    echo "Computing descriptor for $MODEL_ID ($HF_ID)"
+    python scripts/compute_descriptors.py \
+      --model ${HF_ID} \
+      --probes_files ${PROBES_MIXINSTRUCT} \
       --out ${OUT_FILE} \
       --topk 256 --n_tokens 10
   fi

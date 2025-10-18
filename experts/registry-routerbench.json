@@ -1,0 +1,63 @@
+{
+    "claude-instant-v1": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.0014
+    },
+    "gpt-4-1106-preview": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.0083
+    },
+    "meta__llama-2-70b-chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 70,
+      "cost_usd_per_1k_tokens": 0.0014
+    },
+    "claude-v1": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.006
+    },
+    "claude-v2": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.0065
+    },
+    "mistralai__mixtral-8x7b-chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 56,
+      "cost_usd_per_1k_tokens": 0.0013
+    },
+    "zero-one-ai__Yi-34B-Chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.0014
+    },
+    "meta__code-llama-instruct-34b-chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 34,
+      "cost_usd_per_1k_tokens": 0.0014
+    },
+     "mistralai__mistral-7b-chat": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 7,
+      "cost_usd_per_1k_tokens": 0.0011
+    },
+    "gpt-3.5-turbo-1106": {
+      "modality": "text",
+      "latency_ms": 0,
+      "cost_usd_per_1k_tokens": 0.00150
+    },
+    "WizardLM__WizardLM-13B-V1.2": {
+      "modality": "text",
+      "latency_ms": 0,
+      "n_params": 13,
+      "cost_usd_per_1k_tokens": 0.0012
+    }
+}

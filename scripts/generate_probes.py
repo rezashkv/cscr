@@ -46,7 +46,7 @@ def write_json(lst: List[str], path: str | Path):
 def main():  
     parser = argparse.ArgumentParser(description="Generate probe sets for descriptors")
     parser.add_argument("--n_embedllm", type=int, default=0)
-    parser.add_argument("--n_mix_instruct", type=int, default=0)
+    parser.add_argument("--n_mix-instruct", type=int, default=0)
     parser.add_argument("--n_routerbench", type=int, default=0)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--out_dir", default="data", help="Directory to save probe JSON files")
@@ -59,7 +59,7 @@ def main():
 
     if args.n_mix_instruct != 0:
         mix_instruct_prompts = build_mix_instruct_probes(args.n_mix_instruct, args.seed + 4)
-        write_json(mix_instruct_prompts, Path(args.out_dir) / f"probes_mix_instruct-{len(mix_instruct_prompts)}.json")
+        write_json(mix_instruct_prompts, Path(args.out_dir) / f"probes_mix-instruct-{len(mix_instruct_prompts)}.json")
         print(f"Saved {len(mix_instruct_prompts)} mix_instruct prompts to {args.out_dir}/probes_mix_instruct-{len(mix_instruct_prompts)}.json")
 
     if args.n_routerbench != 0:
