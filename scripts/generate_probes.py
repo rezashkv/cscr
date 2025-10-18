@@ -26,7 +26,9 @@ def build_embedllm_probes(n: int, seed: int) -> List[str]:
 def build_mix_instruct_probes(n: int, seed: int) -> List[str]:
     ds = load_dataset("llm-blender/mix-instruct", split="validation")
     ds = ds.map(lambda x: {"prompt": f"{x['instruction']} {x['input']}"})
-    return _sample_prompts(ds, ["prompt", "id"], n, seed)
+    ds = _sample_prompts(ds, ["prompt", "id"], n, seed)
+    ds = [{"prompt": sample["prompt"], "prompt_id": sample["id"]} for sample in ds]
+    return ds
 
 
 def build_routerbench_probes(n: int, seed: int) -> List[str]:
@@ -36,7 +38,9 @@ def build_routerbench_probes(n: int, seed: int) -> List[str]:
     n_total = len(ds)
     n_train = int(0.9 * n_total)
     ds = ds.select(range(n_train))
-    return _sample_prompts(ds, ["prompt", "sample_id"], n, seed)
+    ds = _sample_prompts(ds, ["prompt", "sample_id"], n, seed)
+    ds = [{"prompt": sample["prompt"], "prompt_id": sample["sample_id"]} for sample in ds]
+    return ds
 
 def write_json(lst: List[str], path: str | Path):
     Path(path).parent.mkdir(parents=True, exist_ok=True)

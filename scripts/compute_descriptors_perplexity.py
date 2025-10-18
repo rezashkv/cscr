@@ -78,12 +78,14 @@ def main():
     if args.dataset == "mix-instruct":
         ds = load_dataset("llm-blender/mix-instruct", split="validation")
         ds = ds.shuffle(seed=args.seed)
+        ds = ds.rename_column("id", "prompt_id")
         
     elif args.dataset == "routerbench":
         ds_file = hf_hub_download(repo_id="withmartian/routerbench",
                                 repo_type="dataset",
                                 filename="routerbench_0shot.pkl")
         ds = load_dataset("pandas", data_files={"data": ds_file}, split="data")
+        ds = ds.rename_column("sample_id", "prompt_id")
 
         ds = ds.shuffle(seed=args.seed)
 
@@ -113,10 +115,7 @@ def main():
     probe_to_idx = {pid: idx for idx, pid in enumerate(sorted(probe_ids))}
     skipped = 0
     for row in tqdm(ds, desc="embedding responses"):
-        if args.dataset == "routerbench":
-            pid = row["sample_id"]
-        else:
-            pid = row["id"]
+        pid = row["prompt_id"]
         if pid not in probe_to_idx:
             continue
         col_idx = probe_to_idx[pid]
@@ -132,7 +131,7 @@ def main():
             vec = perplexity_fingerprint(text)
             descriptor[m_idx, col_idx] = vec
             if args.dataset == "routerbench":
-                token_ids[m_name.replace('/','__')].append(row["model_response_tokens"])
+                token_ids[m_name.replace('/','__')].append(pid)
             
     print(f"Finished. Missing {skipped} <pid, model> pairs.")
 
